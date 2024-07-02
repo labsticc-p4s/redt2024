@@ -1,0 +1,35 @@
+\begin{figure}[h]
+%\small
+\dirtree{%
+.1 .\hfill.
+.2 bin\DTcomment{Tool\footnote{The simulator}}.
+.2 docker.Makefile\DTcomment{Tool Configuration/Configuration}.
+.2 output\hfill.
+.3 outputs.csv\DTcomment{Knowledge}.
+.3 msdi.log\DTcomment{Knowledge}.
+.2 input\hfill.
+.3 cosim.json.j2\DTcomment{Tool Configuration/Knowledge}.
+.3 cosim.json.tpl\DTcomment{Knowledge}.
+.3 MassSpringDamper1.fmu\DTcomment{Knowledge}.
+.3 MassSpringDamper2.fmu\DTcomment{Knowledge}.
+.3 time.json\DTcomment{Tool Configuration/Knowledge}.
+.2 LICENSE.md\DTcomment{Configuration}.
+.2 Makefile\DTcomment{Configuration/Service}.
+.2 README.org\DTcomment{Configuration}.
+.2 strategies\hfill.
+.3 ansible\hfill.
+.4 ansible.cfg\DTcomment{Configuration}.
+.4 hosts.ini\DTcomment{Configuration}.
+.4 playbook.yml\DTcomment{Service/Configuration}.
+.4 requirements.yml\DTcomment{Configuration}.
+.4 Vagrantfile\DTcomment{Configuration}.
+.3 docker\hfill.
+.4 docker-compose.yml\DTcomment{Service/Configuration}.
+.4 Dockerfile\DTcomment{Configuration}.
+.4 run.sh\DTcomment{Service}.
+.3 shell\hfill.
+.4 start.sh\DTcomment{Service}.
+}
+\caption{Mass-Spring-Damper file tree}
+\label{fig:msd-tree}
+\end{figure}

@@ -1,0 +1,166 @@
+.
+├── compose.yml
+├── oh_backups
+│   └── hut
+│       └── openhab
+│           ├── addons
+│           ├── backup.properties
+│           ├── conf
+│           │   ├── automation
+│           │   │   └── jsr223
+│           │   ├── demo.things
+│           │   ├── html
+│           │   │   ├── index.html
+│           │   │   └── readme.txt
+│           │   ├── icons
+│           │   │   └── classic
+│           │   ├── items
+│           │   │   └── readme.txt
+│           │   ├── persistence
+│           │   │   └── readme.txt
+│           │   ├── rules
+│           │   │   └── readme.txt
+│           │   ├── scripts
+│           │   │   └── readme.txt
+│           │   ├── services
+│           │   │   ├── addons.cfg
+│           │   │   ├── basicui.cfg
+│           │   │   ├── readme.txt
+│           │   │   ├── rrd4j.cfg
+│           │   │   └── runtime.cfg
+│           │   ├── sitemaps
+│           │   │   └── readme.txt
+│           │   ├── sounds
+│           │   │   ├── barking.mp3
+│           │   │   └── doorbell.mp3
+│           │   ├── things
+│           │   │   └── readme.txt
+│           │   └── transform
+│           │       ├── de.map
+│           │       ├── en.map
+│           │       └── readme.txt
+│           └── userdata
+│               ├── backup
+│               │   ├── userdata-2022-12-09T18-50-23.tar
+│               │   ├── userdata-2022-12-09T18-50-24.tar
+│               │   ├── userdata-2022-12-09T18-50-25.tar
+│               │   ├── userdata-2022-12-09T18-50-27.tar
+│               │   ├── userdata-2022-12-09T18-50-30.tar
+│               │   ├── userdata-2022-12-09T18-50-37.tar
+│               │   ├── userdata-2022-12-09T18-50-50.tar
+│               │   ├── userdata-2022-12-09T18-51-16.tar
+│               │   ├── userdata-2022-12-09T18-54-38.tar
+│               │   └── userdata-2024-06-17T14-47-36.tar
+│               ├── cache
+│               │   └── org.eclipse.osgi
+│               ├── config
+│               │   ├── jmx
+│               │   ├── org
+│               │   ├── org_apache_felix_cm_impl_DynamicBindings.config
+│               │   └── profile.config
+│               ├── etc
+│               │   ├── all.policy
+│               │   ├── branding.properties
+│               │   ├── branding-ssh.properties
+│               │   ├── config.properties
+│               │   ├── custom.properties
+│               │   ├── custom.system.properties
+│               │   ├── distribution.info
+│               │   ├── equinox-debug.properties
+│               │   ├── java.util.logging.properties
+│               │   ├── jetty-web.xml
+│               │   ├── jetty.xml
+│               │   ├── jmx.acl.org.apache.karaf.bundle.cfg
+│               │   ├── jmx.acl.org.apache.karaf.config.cfg
+│               │   ├── jre.properties
+│               │   ├── keys.properties
+│               │   ├── keystore
+│               │   ├── log4j2.xml
+│               │   ├── log4j2.xml.bak
+│               │   ├── org.apache.felix.eventadmin.impl.EventAdmin.cfg
+│               │   ├── org.apache.felix.fileinstall-deploy.cfg
+│               │   ├── org.apache.karaf.command.acl.bundle.cfg
+│               │   ├── org.apache.karaf.command.acl.config.cfg
+│               │   ├── org.apache.karaf.command.acl.feature.cfg
+│               │   ├── org.apache.karaf.command.acl.jaas.cfg
+│               │   ├── org.apache.karaf.command.acl.kar.cfg
+│               │   ├── org.apache.karaf.command.acl.scope_bundle.cfg
+│               │   ├── org.apache.karaf.command.acl.shell.cfg
+│               │   ├── org.apache.karaf.command.acl.system.cfg
+│               │   ├── org.apache.karaf.features.cfg
+│               │   ├── org.apache.karaf.features.repos.cfg
+│               │   ├── org.apache.karaf.features.xml
+│               │   ├── org.apache.karaf.jaas.cfg
+│               │   ├── org.apache.karaf.kar.cfg
+│               │   ├── org.apache.karaf.log.cfg
+│               │   ├── org.apache.karaf.shell.cfg
+│               │   ├── org.jupnp.cfg
+│               │   ├── org.openhab.audio.cfg
+│               │   ├── org.openhab.voice.cfg
+│               │   ├── org.ops4j.pax.logging.cfg
+│               │   ├── org.ops4j.pax.url.mvn.cfg
+│               │   ├── org.ops4j.pax.web.cfg
+│               │   ├── overrides.properties
+│               │   ├── profile.cfg
+│               │   ├── scripts
+│               │   ├── shell.init.script
+│               │   ├── startup.properties
+│               │   ├── system.properties
+│               │   ├── users.properties
+│               │   └── version.properties
+│               ├── hs_err_pid563.log
+│               ├── jsondb
+│               │   ├── automation_rules_disabled.json
+│               │   ├── automation_rules.json
+│               │   ├── backup
+│               │   ├── org.openhab.core.config.discovery.DiscoveryResult.json
+│               │   ├── org.openhab.core.items.Item.json
+│               │   ├── org.openhab.core.thing.link.ItemChannelLink.json
+│               │   ├── org.openhab.core.thing.Thing.json
+│               │   ├── org.openhab.core.tools.UpgradeTool
+│               │   ├── thing_status_storage.json
+│               │   ├── uicomponents_ui_page.json
+│               │   └── users.json
+│               ├── logs
+│               │   ├── audit.log
+│               │   ├── events.log
+│               │   ├── events.log.1.gz
+│               │   ├── openhab.log
+│               │   ├── openhab.log.1.gz
+│               │   └── update.log
+│               ├── persistence
+│               │   ├── db4o
+│               │   ├── mapdb
+│               │   └── rrd4j
+│               ├── secrets
+│               │   └── rsa_json_web_key.json
+│               ├── tmp
+│               │   ├── bundles
+│               │   ├── fileinstall-2699581304934032565
+│               │   ├── instances
+│               │   ├── kar
+│               │   ├── karaf.pid
+│               │   ├── libNRJavaSerial_openhab_0
+│               │   ├── lock
+│               │   ├── mvn
+│               │   ├── port
+│               │   ├── rest
+│               │   └── ROOT
+│               └── zwave
+│                   ├── network_cddaf150__node_1.xml
+│                   ├── network_cddaf150__node_3.xml
+│                   ├── network_cddaf150__node_4.xml
+│                   ├── network_cddaf150__node_5.xml
+│                   ├── network_cddaf150__node_6.xml
+│                   ├── network_f834a44c__node_10.xml
+│                   ├── network_f834a44c__node_1.xml
+│                   ├── network_f834a44c__node_2.xml
+│                   ├── network_f834a44c__node_3.xml
+│                   ├── network_f834a44c__node_4.xml
+│                   ├── network_f834a44c__node_5.xml
+│                   ├── network_f834a44c__node_6.xml
+│                   ├── network_f834a44c__node_7.xml
+│                   └── network_f834a44c__node_9.xml
+└── README.md
+
+47 directories, 117 files

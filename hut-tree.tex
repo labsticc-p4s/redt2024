@@ -1,0 +1,35 @@
+\begin{figure}
+    \centering
+    \dirtree{%
+    .1 .\hfill.
+    .2 compose.yml\DTcomment{Service/Configuration}.
+    .2 oh\_backups/hut/openhab\hfill.
+    .3 addons\hfill.
+    .3 backup.properties\DTcomment{Configuration}.
+    .3 conf\DTcomment{Tool Configuration}.
+    .4 [...]\hfill.
+    .4 scripts [...]\DTcomment{Service/Tool Configuration}.
+    .4 services\hfill.
+    .5 addons.cfg\hfill.
+    .5 *.cfg\hfill.
+    .4 things [...]\DTcomment{Knowledge/Tool Configuration}.
+    .4 transform\hfill.
+    .6 *.map\DTcomment{Service}.
+    .3 userdata\DTcomment{Knowledge}.
+    .4 [...]\hfill.
+    .4 backup\hfill.
+    .5 userdata-2022-12-09T16-50-23.tar\hfill.
+    .5 [...]\hfill.
+    .4 config\DTcomment{Tool Configuration ?}.
+    .4 jsondb\hfill.
+    .5 *.json\hfill.
+    .4 persistence\hfill.
+    .5 [...]\hfill.
+    .5 rrd4j\DTcomment{Knowledge}.
+    .4 zwave\DTcomment{Configuration}.
+    .5 *.xml\hfill.
+    .2 README.md\DTcomment{Configuration}.
+    }
+    \caption{HUT: an openHAB-based DT (condensed)}
+    \label{fig:hut-tree}
+\end{figure}

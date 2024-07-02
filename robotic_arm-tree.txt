@@ -1,0 +1,123 @@
+.
+├── Sys_de_Ref
+│   ├── Management
+│   │   └── launch_pick_and_place.sh
+│   ├── README.md
+│   └── Resources
+│       ├── catkin_ws
+│       │   └── src
+│       │       ├── j2n6s300_moveit
+│       │       ├── kinova_ros
+│       │       ├── moveit_folder
+│       │       ├── planning
+│       │       └── ros_tcp_endpoint
+│       └── Data
+│           └── Data_ROS
+│               ├── 2023-06-19-15-28-10.bag.active
+│               ├── 2023-06-19-15-31-01.bag.active
+│               ├── 2023-06-19-15-32-46.bag.active
+│               ├── 2023-06-20-13-27-05.bag.active
+│               ├── 2023-06-20-13-42-12.bag.active
+│               ├── 2023-06-20-13-52-33.bag.active
+│               └── README.md
+├── UI_Gazebo
+│   ├── Configuration_DS
+│   │   ├── Management
+│   │   │   └── launch_pick_and_place.sh
+│   │   └── Resources
+│   │       ├── catkin_ws
+│   │       │   └── src
+│   │       └── Data
+│   │           └── Data_ROS
+│   ├── Configuration_Virtual_DT
+│   │   ├── Management
+│   │   │   └── launch.sh
+│   │   ├── README.md
+│   │   └── Resources
+│   │       ├── catkin_ws
+│   │       │   └── src
+│   │       └── Data
+│   │           └── Data_ROS
+│   └── README.md
+└── UI_Unity
+    ├── Configuration_DS
+    │   ├── DeploymentConfiguration
+    │   ├── HumanTask
+    │   ├── Location
+    │   ├── Management
+    │   │   └── launch_stream.sh
+    │   ├── README.md
+    │   └── Resources
+    │       ├── catkin_ws
+    │       │   └── src
+    │       └── Unity_Robot_DS
+    │           ├── Assets
+    │           ├── Library
+    │           ├── Logs
+    │           ├── Packages
+    │           ├── ProjectSettings
+    │           └── UserSettings
+    ├── Configuration_DT
+    │   ├── DeploymentConfiguration
+    │   ├── HumanTask
+    │   ├── Location
+    │   ├── Management
+    │   │   └── launch_pick_and_place.sh
+    │   ├── README.md
+    │   └── Resources
+    │       ├── catkin_ws
+    │       │   └── src
+    │       ├── Executable
+    │       │   ├── Executable_Data
+    │       │   ├── Executable.x86_64
+    │       │   ├── LinuxPlayer_s.debug
+    │       │   ├── UnityPlayer_s.debug
+    │       │   └── UnityPlayer.so
+    │       └── Unity_Robot_Stream
+    │           ├── Assets
+    │           ├── Library
+    │           ├── Logs
+    │           ├── Packages
+    │           ├── ProjectSettings
+    │           └── UserSettings
+    ├── Configuration_Virtual_DT
+    │   ├── DeploymentConfiguration
+    │   ├── HumanTask
+    │   ├── Location
+    │   ├── Management
+    │   │   ├── docker_data_in_docker
+    │   │   │   ├── docker_command
+    │   │   │   ├── Dockerfile
+    │   │   │   ├── launch_message_executable_for_docker.sh
+    │   │   │   ├── launch_pap_executable_for_docker.sh
+    │   │   │   └── setup.sh
+    │   │   ├── docker_data_in_server
+    │   │   │   ├── docker_command
+    │   │   │   ├── Dockerfile
+    │   │   │   ├── launch_message_executable_for_docker.sh
+    │   │   │   ├── launch_pap_executable_for_docker.sh
+    │   │   │   └── setup.sh
+    │   │   ├── launch_message_executable.sh
+    │   │   ├── launch_message_unity_to_ros.sh
+    │   │   ├── launch_pickandplace_executable.sh
+    │   │   └── launch_simulated_pick_and_place.sh
+    │   ├── README.md
+    │   └── Resources
+    │       ├── catkin_ws
+    │       │   └── src
+    │       ├── Executable
+    │       │   ├── Executable_Data
+    │       │   ├── Executable.x86_64
+    │       │   ├── LinuxPlayer_s.debug
+    │       │   ├── UnityPlayer_s.debug
+    │       │   └── UnityPlayer.so
+    │       └── Unity_Robot_Simulated
+    │           ├── Assets
+    │           ├── Library
+    │           ├── Logs
+    │           ├── Packages
+    │           ├── ProjectSettings
+    │           └── UserSettings
+    └── README.md
+
+71 directories, 50 files

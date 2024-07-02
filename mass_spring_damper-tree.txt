@@ -1,0 +1,43 @@
+.
+├── bin
+│   └── maestro-2.4.1-jar-with-dependencies.jar
+├── docker.Makefile
+├── input
+│   ├── cosim.json
+│   ├── cosim.json.j2
+│   ├── cosim.json.tpl
+│   ├── MassSpringDamper1.fmu
+│   ├── MassSpringDamper2.fmu
+│   └── time.json
+├── LICENSE.md
+├── Makefile
+├── output
+│   ├── msd1i.log
+│   ├── msd2i.log
+│   ├── outputs.csv
+│   ├── spec00000.mabl
+│   ├── spec00000-numbered.mabl
+│   ├── spec00001.mabl
+│   ├── spec00001-numbered.mabl
+│   ├── spec00002.mabl
+│   ├── spec00002-numbered.mabl
+│   ├── spec.mabl
+│   └── spec.runtime.json
+├── README.org
+├── strategies
+│   ├── ansible
+│   │   ├── ansible.cfg
+│   │   ├── hosts.ini
+│   │   ├── playbook.yml
+│   │   ├── requirements.yml
+│   │   └── Vagrantfile
+│   ├── docker
+│   │   ├── docker-compose.yml
+│   │   ├── Dockerfile
+│   │   └── run.sh
+│   └── shell
+│       └── start.sh
+└── target
+    └── coe.log
+
+9 directories, 32 files
