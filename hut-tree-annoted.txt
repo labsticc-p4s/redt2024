@@ -7,19 +7,19 @@
 │           ├── backup.properties ... Configuration
 │           ├── conf ... Tool Configuration
 │           │   ├── automation
-│           │   │   └── jsr223
+│           │   │   └── jsr22 ... Tool
 │           │   ├── demo.things
 │           │   ├── html
 │           │   │   ├── index.html
 │           │   │   └── readme.txt
 │           │   ├── icons
-│           │   │   └── classic
+│           │   │   └── classic ... Configuration / Knowledge
 │           │   ├── items
-│           │   │   └── readme.txt
+│           │   │   └── readme.txt ... Configuration / Knowledge
 │           │   ├── persistence
 │           │   │   └── readme.txt
 │           │   ├── rules
-│           │   │   └── readme.txt
+│           │   │   └── readme.txt ... Configuration / Tool Configuration
 │           │   ├── scripts ... Service / Tool Configuration
 │           │   │   └── readme.txt
 │           │   ├── services
@@ -58,7 +58,7 @@
 │               │   ├── org
 │               │   ├── org_apache_felix_cm_impl_DynamicBindings.config ...
 Configuration
-│               │   └── profile.config
+│               │   └── profile.config ... Configuration
 │               ├── etc
 │               │   ├── all.policy
 │               │   ├── branding.properties
@@ -149,20 +149,20 @@ Configuration
 │               │   ├── rest
 │               │   └── ROOT
 │               └── zwave ... Configuration
-│                   ├── network_cddaf150__node_1.xml
-│                   ├── network_cddaf150__node_3.xml
-│                   ├── network_cddaf150__node_4.xml
-│                   ├── network_cddaf150__node_5.xml
-│                   ├── network_cddaf150__node_6.xml
-│                   ├── network_f834a44c__node_10.xml
-│                   ├── network_f834a44c__node_1.xml
-│                   ├── network_f834a44c__node_2.xml
-│                   ├── network_f834a44c__node_3.xml
-│                   ├── network_f834a44c__node_4.xml
-│                   ├── network_f834a44c__node_5.xml
-│                   ├── network_f834a44c__node_6.xml
-│                   ├── network_f834a44c__node_7.xml
-│                   └── network_f834a44c__node_9.xml
+│                   ├── network_cddaf150__node_1.xml ... Configuration
+│                   ├── network_cddaf150__node_3.xml ... Configuration
+│                   ├── network_cddaf150__node_4.xml ... Configuration
+│                   ├── network_cddaf150__node_5.xml ... Configuration
+│                   ├── network_cddaf150__node_6.xml ... Configuration
+│                   ├── network_f834a44c__node_10.xml ... Configuration
+│                   ├── network_f834a44c__node_1.xml ... Configuration
+│                   ├── network_f834a44c__node_2.xml ... Configuration
+│                   ├── network_f834a44c__node_3.xml ... Configuration
+│                   ├── network_f834a44c__node_4.xml ... Configuration
+│                   ├── network_f834a44c__node_5.xml ... Configuration
+│                   ├── network_f834a44c__node_6.xml ... Configuration
+│                   ├── network_f834a44c__node_7.xml ... Configuration
+│                   └── network_f834a44c__node_9.xml ... Configuration
 └── README.md ... Configuration
 
 47 directories, 117 files

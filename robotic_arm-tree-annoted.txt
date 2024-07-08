@@ -1,10 +1,10 @@
 .
 ├── Sys_de_Ref
 │   ├── Management
-│   │   └── launch_pick_and_place.sh
-│   ├── README.md
+│   │   └── launch_pick_and_place.sh ... Service / Configuration
+│   ├── README.md ... Configuration
 │   └── Resources
-│       ├── catkin_ws
+│       ├── catkin_ws ... Connection / Tool
 │       │   └── src
 │       │       ├── j2n6s300_moveit
 │       │       ├── kinova_ros
@@ -13,31 +13,31 @@
 │       │       └── ros_tcp_endpoint
 │       └── Data
 │           └── Data_ROS
-│               ├── 2023-06-19-15-28-10.bag.active
-│               ├── 2023-06-19-15-31-01.bag.active
-│               ├── 2023-06-19-15-32-46.bag.active
-│               ├── 2023-06-20-13-27-05.bag.active
-│               ├── 2023-06-20-13-42-12.bag.active
-│               ├── 2023-06-20-13-52-33.bag.active
+│               ├── 2023-06-19-15-28-10.bag.active ... Knowledge
+│               ├── 2023-06-19-15-31-01.bag.active ... Knowledge
+│               ├── 2023-06-19-15-32-46.bag.active ... Knowledge
+│               ├── 2023-06-20-13-27-05.bag.active ... Knowledge
+│               ├── 2023-06-20-13-42-12.bag.active ... Knowledge
+│               ├── 2023-06-20-13-52-33.bag.active ... Knowledge
 │               └── README.md
 ├── UI_Gazebo
 │   ├── Configuration_DS
 │   │   ├── Management
-│   │   │   └── launch_pick_and_place.sh
+│   │   │   └── launch_pick_and_place.sh ... Service / Configuration
 │   │   └── Resources
-│   │       ├── catkin_ws
+│   │       ├── catkin_ws ... Connection / Tool
 │   │       │   └── src
 │   │       └── Data
-│   │           └── Data_ROS
+│   │           └── Data_ROS ... Knowledge
 │   ├── Configuration_Virtual_DT
 │   │   ├── Management
-│   │   │   └── launch.sh
-│   │   ├── README.md
+│   │   │   └── launch.sh ... Service / Configuration
+│   │   ├── README.md ... Configuration
 │   │   └── Resources
-│   │       ├── catkin_ws
+│   │       ├── catkin_ws ... Connection / Tool
 │   │       │   └── src
 │   │       └── Data
-│   │           └── Data_ROS
+│   │           └── Data_ROS ... Knowledge
 │   └── README.md
 └── UI_Unity
     ├── Configuration_DS
@@ -45,10 +45,10 @@
     │   ├── HumanTask
     │   ├── Location
     │   ├── Management
-    │   │   └── launch_stream.sh
-    │   ├── README.md
+    │   │   └── launch_stream.sh ... Service / Configuration
+    │   ├── README.md ... Configuration
     │   └── Resources
-    │       ├── catkin_ws
+    │       ├── catkin_ws ... Connection / Tool
     │       │   └── src
     │       └── Unity_Robot_DS
     │           ├── Assets
@@ -58,22 +58,22 @@
     │           ├── ProjectSettings
     │           └── UserSettings
     ├── Configuration_DT
-    │   ├── DeploymentConfiguration
+    │   ├── DeploymentConfiguration ... Configuration
     │   ├── HumanTask
     │   ├── Location
-    │   ├── Management
-    │   │   └── launch_pick_and_place.sh
+    │   ├── Management ... Service
+    │   │   └── launch_pick_and_place.sh ... Service / Configuration
     │   ├── README.md
-    │   └── Resources
-    │       ├── catkin_ws
+    │   └── Resources ... Knowledge / Configuration / Tool Configuration
+    │       ├── catkin_ws ... Connection / Tool
     │       │   └── src
     │       ├── Executable
-    │       │   ├── Executable_Data
-    │       │   ├── Executable.x86_64
-    │       │   ├── LinuxPlayer_s.debug
-    │       │   ├── UnityPlayer_s.debug
-    │       │   └── UnityPlayer.so
-    │       └── Unity_Robot_Stream
+    │       │   ├── Executable_Data ... Tool
+    │       │   ├── Executable.x86_64 ... Tool
+    │       │   ├── LinuxPlayer_s.debug ... Knowledge
+    │       │   ├── UnityPlayer_s.debug ... Knowledge
+    │       │   └── UnityPlayer.so ... Tool
+    │       └── Unity_Robot_Stream ... Knowledge / Tool Configuration
     │           ├── Assets
     │           ├── Library
     │           ├── Logs
@@ -87,30 +87,30 @@
     │   ├── Management
     │   │   ├── docker_data_in_docker
     │   │   │   ├── docker_command
-    │   │   │   ├── Dockerfile
-    │   │   │   ├── launch_message_executable_for_docker.sh
-    │   │   │   ├── launch_pap_executable_for_docker.sh
-    │   │   │   └── setup.sh
+    │   │   │   ├── Dockerfile ... Configuration
+    │   │   │   ├── launch_message_executable_for_docker.sh ... Service
+    │   │   │   ├── launch_pap_executable_for_docker.sh ... Service
+    │   │   │   └── setup.sh ... Service
     │   │   ├── docker_data_in_server
     │   │   │   ├── docker_command
     │   │   │   ├── Dockerfile
-    │   │   │   ├── launch_message_executable_for_docker.sh
-    │   │   │   ├── launch_pap_executable_for_docker.sh
+    │   │   │   ├── launch_message_executable_for_docker.sh ... Service
+    │   │   │   ├── launch_pap_executable_for_docker.sh ... Service
     │   │   │   └── setup.sh
-    │   │   ├── launch_message_executable.sh
-    │   │   ├── launch_message_unity_to_ros.sh
-    │   │   ├── launch_pickandplace_executable.sh
-    │   │   └── launch_simulated_pick_and_place.sh
+    │   │   ├── launch_message_executable.sh ... Service
+    │   │   ├── launch_message_unity_to_ros.sh ... Service
+    │   │   ├── launch_pickandplace_executable.sh ... Service
+    │   │   └── launch_simulated_pick_and_place.sh ... Service
     │   ├── README.md
     │   └── Resources
-    │       ├── catkin_ws
+    │       ├── catkin_ws ... Connection / Tool
     │       │   └── src
     │       ├── Executable
-    │       │   ├── Executable_Data
-    │       │   ├── Executable.x86_64
-    │       │   ├── LinuxPlayer_s.debug
-    │       │   ├── UnityPlayer_s.debug
-    │       │   └── UnityPlayer.so
+    │       │   ├── Executable_Data ... Tool
+    │       │   ├── Executable.x86_64 ... Tool
+    │       │   ├── LinuxPlayer_s.debug ... Knowledge
+    │       │   ├── UnityPlayer_s.debug ... Knowledge
+    │       │   └── UnityPlayer.so ... Tool
     │       └── Unity_Robot_Simulated
     │           ├── Assets
     │           ├── Library
