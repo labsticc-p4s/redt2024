@@ -1,0 +1,43 @@
+.
+├── bin ... Tool (The simulator)
+│   └── maestro-2.4.1-jar-with-dependencies.jar 
+├── docker.Makefile ... Tool Configuration / Configuration
+├── input
+│   ├── cosim.json ... Knowledge
+│   ├── cosim.json.j2 ... Tool Configuration / Knowledge
+│   ├── cosim.json.tpl ... Knowledge
+│   ├── MassSpringDamper1.fmu ... Knowledge
+│   ├── MassSpringDamper2.fmu ... Knowledge
+│   └── time.json ... Tool Configuration / Knowledge
+├── LICENSE.md ... Configuration
+├── Makefile ... Configuration / Service
+├── output
+│   ├── msd1i.log ... Knowledge
+│   ├── msd2i.log ... Knowledge
+│   ├── outputs.csv ... Knowledge
+│   ├── spec00000.mabl
+│   ├── spec00000-numbered.mabl
+│   ├── spec00001.mabl
+│   ├── spec00001-numbered.mabl
+│   ├── spec00002.mabl
+│   ├── spec00002-numbered.mabl
+│   ├── spec.mabl
+│   └── spec.runtime.json
+├── README.org ... Configuration
+├── strategies
+│   ├── ansible
+│   │   ├── ansible.cfg ... Configuration
+│   │   ├── hosts.ini ... Configuration
+│   │   ├── playbook.yml ... Service / Configuration
+│   │   ├── requirements.yml ... Configuration
+│   │   └── Vagrantfile ... Configuration
+│   ├── docker
+│   │   ├── docker-compose.yml ... Service / Configuration
+│   │   ├── Dockerfile ... Configuration
+│   │   └── run.sh ... Service
+│   └── shell
+│       └── start.sh ... Service
+└── target
+    └── coe.log ... Knowledge
+
+9 directories, 32 files

@@ -1,0 +1,168 @@
+.
+├── compose.yml ... Service / Configuration
+├── oh_backups
+│   └── hut
+│       └── openhab
+│           ├── addons
+│           ├── backup.properties ... Configuration
+│           ├── conf ... Tool Configuration
+│           │   ├── automation
+│           │   │   └── jsr223
+│           │   ├── demo.things
+│           │   ├── html
+│           │   │   ├── index.html
+│           │   │   └── readme.txt
+│           │   ├── icons
+│           │   │   └── classic
+│           │   ├── items
+│           │   │   └── readme.txt
+│           │   ├── persistence
+│           │   │   └── readme.txt
+│           │   ├── rules
+│           │   │   └── readme.txt
+│           │   ├── scripts ... Service / Tool Configuration
+│           │   │   └── readme.txt
+│           │   ├── services
+│           │   │   ├── addons.cfg ... Tool Configuration
+│           │   │   ├── basicui.cfg ... Tool Configuration
+│           │   │   ├── readme.txt
+│           │   │   ├── rrd4j.cfg ... Tool Configuration
+│           │   │   └── runtime.cfg ... Tool Configuration
+│           │   ├── sitemaps
+│           │   │   └── readme.txt
+│           │   ├── sounds
+│           │   │   ├── barking.mp3 ... Knowledge / Tool Configuration
+│           │   │   └── doorbell.mp3 ... Knowledge / Tool Configuration
+│           │   ├── things ... Knowledge / Tool Configuration
+│           │   │   └── readme.txt
+│           │   └── transform
+│           │       ├── de.map ... Service
+│           │       ├── en.map ... Service
+│           │       └── readme.txt
+│           └── userdata ... Knowledge
+│               ├── backup
+│               │   ├── userdata-2022-12-09T18-50-23.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-24.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-25.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-27.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-30.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-37.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-50-50.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-51-16.tar ... Knowledge
+│               │   ├── userdata-2022-12-09T18-54-38.tar ... Knowledge
+│               │   └── userdata-2024-06-17T14-47-36.tar ... Knowledge
+│               ├── cache
+│               │   └── org.eclipse.osgi
+│               ├── config ... Tool Configuration?
+│               │   ├── jmx
+│               │   ├── org
+│               │   ├── org_apache_felix_cm_impl_DynamicBindings.config ...
+Configuration
+│               │   └── profile.config
+│               ├── etc
+│               │   ├── all.policy
+│               │   ├── branding.properties
+│               │   ├── branding-ssh.properties
+│               │   ├── config.properties
+│               │   ├── custom.properties
+│               │   ├── custom.system.properties
+│               │   ├── distribution.info
+│               │   ├── equinox-debug.properties
+│               │   ├── java.util.logging.properties
+│               │   ├── jetty-web.xml
+│               │   ├── jetty.xml
+│               │   ├── jmx.acl.org.apache.karaf.bundle.cfg
+│               │   ├── jmx.acl.org.apache.karaf.config.cfg
+│               │   ├── jre.properties
+│               │   ├── keys.properties
+│               │   ├── keystore
+│               │   ├── log4j2.xml
+│               │   ├── log4j2.xml.bak
+│               │   ├── org.apache.felix.eventadmin.impl.EventAdmin.cfg ...
+Configuration
+│               │   ├── org.apache.felix.fileinstall-deploy.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.bundle.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.config.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.feature.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.jaas.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.kar.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.scope_bundle.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.shell.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.command.acl.system.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.features.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.features.repos.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.features.xml
+│               │   ├── org.apache.karaf.jaas.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.kar.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.log.cfg ... Tool Configuration
+│               │   ├── org.apache.karaf.shell.cfg ... Tool Configuration
+│               │   ├── org.jupnp.cfg ... Tool Configuration
+│               │   ├── org.openhab.audio.cfg ... Tool Configuration
+│               │   ├── org.openhab.voice.cfg ... Tool Configuration
+│               │   ├── org.ops4j.pax.logging.cfg ... Tool Configuration
+│               │   ├── org.ops4j.pax.url.mvn.cfg ... Tool Configuration
+│               │   ├── org.ops4j.pax.web.cfg ... Tool Configuration
+│               │   ├── overrides.properties
+│               │   ├── profile.cfg
+│               │   ├── scripts
+│               │   ├── shell.init.script
+│               │   ├── startup.properties
+│               │   ├── system.properties
+│               │   ├── users.properties
+│               │   └── version.properties
+│               ├── hs_err_pid563.log
+│               ├── jsondb
+│               │   ├── automation_rules_disabled.json
+│               │   ├── automation_rules.json
+│               │   ├── backup
+│               │   ├── org.openhab.core.config.discovery.DiscoveryResult.json
+│               │   ├── org.openhab.core.items.Item.json
+│               │   ├── org.openhab.core.thing.link.ItemChannelLink.json
+│               │   ├── org.openhab.core.thing.Thing.json
+│               │   ├── org.openhab.core.tools.UpgradeTool
+│               │   ├── thing_status_storage.json
+│               │   ├── uicomponents_ui_page.json
+│               │   └── users.json
+│               ├── logs
+│               │   ├── audit.log
+│               │   ├── events.log
+│               │   ├── events.log.1.gz
+│               │   ├── openhab.log
+│               │   ├── openhab.log.1.gz
+│               │   └── update.log
+│               ├── persistence
+│               │   ├── db4o
+│               │   ├── mapdb
+│               │   └── rrd4j ... Knowledge
+│               ├── secrets
+│               │   └── rsa_json_web_key.json
+│               ├── tmp
+│               │   ├── bundles
+│               │   ├── fileinstall-2699581304934032565
+│               │   ├── instances
+│               │   ├── kar
+│               │   ├── karaf.pid
+│               │   ├── libNRJavaSerial_openhab_0
+│               │   ├── lock
+│               │   ├── mvn
+│               │   ├── port
+│               │   ├── rest
+│               │   └── ROOT
+│               └── zwave ... Configuration
+│                   ├── network_cddaf150__node_1.xml
+│                   ├── network_cddaf150__node_3.xml
+│                   ├── network_cddaf150__node_4.xml
+│                   ├── network_cddaf150__node_5.xml
+│                   ├── network_cddaf150__node_6.xml
+│                   ├── network_f834a44c__node_10.xml
+│                   ├── network_f834a44c__node_1.xml
+│                   ├── network_f834a44c__node_2.xml
+│                   ├── network_f834a44c__node_3.xml
+│                   ├── network_f834a44c__node_4.xml
+│                   ├── network_f834a44c__node_5.xml
+│                   ├── network_f834a44c__node_6.xml
+│                   ├── network_f834a44c__node_7.xml
+│                   └── network_f834a44c__node_9.xml
+└── README.md ... Configuration
+
+47 directories, 117 files
