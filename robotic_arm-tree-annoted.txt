@@ -6,7 +6,7 @@
 │   └── Resources
 │       ├── catkin_ws ... Connection / Tool
 │       │   └── src
-│       │       ├── j2n6s300_moveit
+│       │       ├── j2n6s300_moveit ... CPS / Tool
 │       │       ├── kinova_ros
 │       │       ├── moveit_folder
 │       │       ├── planning
@@ -51,12 +51,12 @@
     │       ├── catkin_ws ... Connection / Tool
     │       │   └── src
     │       └── Unity_Robot_DS
-    │           ├── Assets
-    │           ├── Library
-    │           ├── Logs
+    │           ├── Assets ... Tool Configuration
+    │           ├── Library ... Configuration / Tool Configuration
+    │           ├── Logs ... Knowledge / Configuration
     │           ├── Packages
-    │           ├── ProjectSettings
-    │           └── UserSettings
+    │           ├── ProjectSettings ... Tool Configuration
+    │           └── UserSettings ... Configuration
     ├── Configuration_DT
     │   ├── DeploymentConfiguration ... Configuration
     │   ├── HumanTask
@@ -74,12 +74,12 @@
     │       │   ├── UnityPlayer_s.debug ... Knowledge
     │       │   └── UnityPlayer.so ... Tool
     │       └── Unity_Robot_Stream ... Knowledge / Tool Configuration
-    │           ├── Assets
-    │           ├── Library
-    │           ├── Logs
+    │           ├── Assets ... Tool Configuration
+    │           ├── Library ... Configuration / Tool Configuration
+    │           ├── Logs ... Knowledge / Configuration
     │           ├── Packages
-    │           ├── ProjectSettings
-    │           └── UserSettings
+    │           ├── ProjectSettings ... Tool Configuration
+    │           └── UserSettings ... Configuration
     ├── Configuration_Virtual_DT
     │   ├── DeploymentConfiguration
     │   ├── HumanTask
@@ -112,12 +112,12 @@
     │       │   ├── UnityPlayer_s.debug ... Knowledge
     │       │   └── UnityPlayer.so ... Tool
     │       └── Unity_Robot_Simulated
-    │           ├── Assets
-    │           ├── Library
-    │           ├── Logs
+    │           ├── Assets ... Tool Configuration
+    │           ├── Library ... Configuration / Tool Configuration
+    │           ├── Logs ... Knowledge / Configuration
     │           ├── Packages
-    │           ├── ProjectSettings
-    │           └── UserSettings
+    │           ├── ProjectSettings ... Tool Configuration
+    │           └── UserSettings ... Configuration
     └── README.md
 
 71 directories, 50 files
